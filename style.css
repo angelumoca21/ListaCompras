@@ -1,0 +1,36 @@
+:root{
+    --colorPrimario:#9F2241;
+    --colorSecundario:#DDc9A3;
+    --colorAux:#98989A;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main{
+    font-size: 2.5rem;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--colorSecundario);
+}
+
+h1{
+    font-size: 5.0rem;
+    color: black;
+}
+
+.NuevoProducto{
+    font-size: 3.0rem;
+    color: var(--colorPrimario);
+}
