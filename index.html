@@ -17,39 +17,31 @@
             <label for="cajaTexto" class="NuevoProducto">Escribe el producto a añadir</label>
             <input type="text" id="cajaTexto" placeholder="Tu producto">
             <select name="secciones" id="opciones">
-                <option value="VerdurasF">Frutas y verduras</option>
-                <option value="Carnes">Carnes</option>
-                <option value="Bebidas">Bebidas</option>
+                <option value="verdurasFrutas">Frutas y verduras</option>
+                <option value="carnes">Carnes</option>
+                <option value="bebidas">Bebidas</option>
             </select>
-            <button type="button">AGREGAR</button>
+            <button type="button" onclick="agregarItem()">AGREGAR</button>
             <!-- <input type="submit" value="Agregar" id="boton"> -->
         </form>
         <section>
             <div>
                 <h2>Frutas y verduras:</h2>
-                <ul>
-                    <li>Jitomate</li>
-                    <li>Lechuga</li>
-                    <li>Zanahoria</li>
+                <ul id="listaFrutasVerduras">
                 </ul>
             </div>
             <div>
                 <h2>Carnes:</h2>
-                <ul>
-                    <li>Pollo</li>
-                    <li>Puerco</li>
-                    <li>Atun</li>
+                <ul id="listaCarnes">
                 </ul>
             </div>
             <div>
                 <h2>Bebidas:</h2>
-                <ul>
-                    <li>Agua</li>
-                    <li>Jugo</li>
-                    <li>Refresco</li>
+                <ul id="listaBebidas">
                 </ul>
             </div>
         </section>
     </main>
+    <script src="./index.js"></script>
 </body>
 </html>
